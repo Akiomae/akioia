@@ -27,7 +27,7 @@ var AkioGlobal = class {
   /**
    * Crea/Continua una conversación con AkioIA.
    * 
-   * @param endpoint - [Endpoint.](https://akiomae.xyz/api/AI/AkioIA/Doc//#endpoint) Datos necesarios para la conversación. 
+   * @param endpoint - [Endpoint.](https://akiomae.xyz/api/AI/AkioIA/Doc/#endpoint) Datos necesarios para la conversación. 
    * @returns Promise<GlobalResponse>
    */
   async create(endpoint) {

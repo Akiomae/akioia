@@ -60,7 +60,7 @@ type EndpointContext = {
     channelID?: string;
 };
 /**
- * Tipado [`Chat`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) - Conversación normal, preguntas y respuestas.
+ * Tipado [`Chat`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) - Conversación normal, preguntas y respuestas.
  */
 type ChatResponse = {
     id: string;
@@ -68,7 +68,7 @@ type ChatResponse = {
     modelo_usado: string;
 };
 /**
- * Tipado [`Image`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) - Devuelve hasta 4 URLs de imágenes encontradas.
+ * Tipado [`Image`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) - Devuelve hasta 4 URLs de imágenes encontradas.
  */
 type ImageResponse = {
     id: string;
@@ -79,7 +79,7 @@ type ImageResponse = {
     };
 };
 /**
- * Tipado [`Image IA`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) - Pollinations AI genera la imagen con el prompt mejorado.
+ * Tipado [`Image IA`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) - Pollinations AI genera la imagen con el prompt mejorado.
  */
 type ImageIAResponse = {
     id: string;
@@ -90,7 +90,7 @@ type ImageIAResponse = {
     };
 };
 /**
- * Tipado [`Code`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) - Bloques de código en archivos separados por lenguaje.
+ * Tipado [`Code`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) - Bloques de código en archivos separados por lenguaje.
  */
 type CodeResponse = {
     id: string;
@@ -105,7 +105,7 @@ type CodeResponse = {
     };
 };
 /**
- * Tipado [`TTS`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) - Archivo de voz generado y URL de acceso.
+ * Tipado [`TTS`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) - Archivo de voz generado y URL de acceso.
  */
 type TTSResponse = {
     id: string;
@@ -114,7 +114,7 @@ type TTSResponse = {
     audio_url: string;
 };
 /**
- * Tipado [`Music`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) - Pista de música generada con IA vía Pollinations.
+ * Tipado [`Music`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) - Pista de música generada con IA vía Pollinations.
  */
 type MusicResponse = {
     id: string;
@@ -123,7 +123,7 @@ type MusicResponse = {
     audio_url: string;
 };
 /**
- * Tipado [`Video`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses)- Video MP4 generado con IA vía Pollinations.
+ * Tipado [`Video`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses)- Video MP4 generado con IA vía Pollinations.
  */
 type VideoResponse = {
     id: string;
@@ -132,7 +132,7 @@ type VideoResponse = {
     video_url: string;
 };
 /**
- * Tipado [`Global`](https://akiomae.xyz/api/AI/AkioIA/Doc//#responses) basado en cualquier tipo de contexto.
+ * Tipado [`Global`](https://akiomae.xyz/api/AI/AkioIA/Doc/#responses) basado en cualquier tipo de contexto.
  */
 type GlobalResponse = Partial<ChatResponse> & Partial<ImageResponse> & Partial<ImageIAResponse> & Partial<CodeResponse> & Partial<TTSResponse> & Partial<MusicResponse> & Partial<VideoResponse>;
 /**
@@ -184,13 +184,13 @@ type UIDOptions = {
 declare function UID(options?: UIDOptions): string;
 
 /**
- * Crea un chat con AkioIA de cualquier tipo de contexto. [`Docs`](https://akiomae.xyz/api/AI/AkioIA/Doc/)
+ * Crea un chat con AkioIA de cualquier tipo de contexto. [`Docs`](https://akiomae.xyz/api/AI/AkioIA/Doc)
  */
 declare class AkioGlobal {
     /**
      * Crea/Continua una conversación con AkioIA.
      *
-     * @param endpoint - [Endpoint.](https://akiomae.xyz/api/AI/AkioIA/Doc//#endpoint) Datos necesarios para la conversación.
+     * @param endpoint - [Endpoint.](https://akiomae.xyz/api/AI/AkioIA/Doc/#endpoint) Datos necesarios para la conversación.
      * @returns Promise<GlobalResponse>
      */
     create(endpoint: EndpointContext): Promise<Promise$1<GlobalResponse>>;
