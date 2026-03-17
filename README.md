@@ -50,9 +50,13 @@ async function sendChat(prompt: string) {
 sendChat("¿Cuál es la capital de Japón?");
 /* Respuesta: 
 {
-    "id": "usuario_123",
-    "response": "¡La capital de Japón es Tokio! Es una de las ciudades más grandes del mundo...",
-    "modelo_usado": "AK-v3.5-BETA"
+  status: 200,
+  error: undefined,
+  data: {
+    id: 'guild_123_username_456',
+    response: "¡La capital de Japón es Tokio! Es una de las ciudades más grandes del mundo...",
+    modelo_usado: 'AK-v3.5-BETA'
+  }
 }
 */
 
