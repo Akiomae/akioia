@@ -21,7 +21,7 @@ Simplemente usa la funcion: `create()` para obtener la respuesta de la API. [`Ve
 // .ts
 
 // Importar
-import AkioIA from "akioia";
+import * as AkioIA from "akioia";
 // import { AkioGlobal } from "akioia";
 
 // Crear instancia
