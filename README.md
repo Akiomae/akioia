@@ -2,7 +2,7 @@
 
 Un módulo NO OFICIAL para el uso de la API de AkioIA.
 
-Puedes ver la documentación de la API [aquí](https://akiomae.xyz/api/AI/AkioIA/Doc).
+Puedes ver la documentación de la API [aquí](https://akiomae.xyz/api/AI/AkioIA/Doc//).
 
 ## Instalación
 
@@ -12,7 +12,7 @@ npm i akioia
 
 ## Uso
 
-Simplemente usa la funcion: `create()` para obtener la respuesta de la API. [`Ver Docs.`](https://akiomae.xyz/api/AI/AkioIA/Doc)
+Simplemente usa la funcion: `create()` para obtener la respuesta de la API. [`Ver Docs.`](https://akiomae.xyz/api/AI/AkioIA/Doc/)
 
 
 ### Un ejemplo básico:
