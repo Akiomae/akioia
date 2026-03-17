@@ -1,0 +1,22 @@
+{
+  "name": "akioia",
+  "version": "0.0.1",
+  "description": "Un prototipo de modulo para usar la api: AkioIA.",
+  "license": "MIT",
+  "author": "htxzk",
+  "homepage": "github",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "readme": "./README.md",
+  "keywords": [ "ai", "akio", "api" ],
+  "scripts": {
+    "dev": "node index.ts",
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
