@@ -4,13 +4,16 @@
   "description": "Un prototipo de modulo para usar la api: AkioIA.",
   "license": "MIT",
   "author": "htxzk",
-  "homepage": "github",
+  "homepage": "https://github.com/Akiomae/akioia",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "readme": "./README.md",
-  "keywords": [ "ai", "akio", "api" ],
+  "keywords": [
+    "ai",
+    "akio",
+    "api"
+  ],
   "scripts": {
     "dev": "node index.ts",
     "build": "tsup src/index.ts --format esm,cjs --dts"
@@ -18,5 +21,13 @@
   "devDependencies": {
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akiomae/akioia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Akiomae/akioia/issues"
   }
 }

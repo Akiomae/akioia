@@ -84,8 +84,3 @@ console.log(uid) // {N7UKNYnHcsJkLG1Q7PAajRWkNKse2gaNNEspU0Nq}
 ## Licencia
 
 MIT License
-
-
-### Keywords
-
-> [ai](https://www.npmjs.com/search?q=keywords:ai) [akio](https://www.npmjs.com/search?q=keywords:akio) [api](https://www.npmjs.com/search?q=keywords:api)
