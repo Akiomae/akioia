@@ -33,7 +33,7 @@ var AkioGlobal = class {
   async create(endpoint) {
     let headers = { "Content-Type": "application/json" };
     let body = JSON.stringify(endpoint);
-    let APIResponse = await fetch("https://akiomae.xyz/api/AI//", {
+    let APIResponse = await fetch("https://akiomae.xyz/api/AI/AkioIA/", {
       method: "POST",
       headers,
       body
