@@ -38,7 +38,7 @@ async function sendChat(prompt: string) {
         context:     "Eres un asistente amable que ayuda con preguntas técnicas",
         personality: "Amable, profesional y entusiasta",
         name:        "Asistente",
-        prompt:      "¿Cuál es la capital de Japón?",
+        prompt:      prompt,
         genero:      "MASCULINO",
         nsfw:        false,
         tokens:      1500
