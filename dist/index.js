@@ -38,6 +38,12 @@ var AkioGlobal = class {
       headers,
       body
     });
+    if (APIResponse.status !== 200) {
+      return {
+        status: APIResponse.status,
+        error: `${APIResponse.statusText}: ${APIResponse.body}`
+      };
+    }
     let JSONResponse = await APIResponse.json();
     let akioGlobalResponse = {
       status: APIResponse.status,
